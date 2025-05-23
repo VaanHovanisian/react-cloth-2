@@ -1,0 +1,36 @@
+.back {
+    background-color: black;
+    color: #fff;
+    max-width: 1235px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+
+    font-size: 16px;
+
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.par {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.img {
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.button {
+    text-align: center;
+
+}

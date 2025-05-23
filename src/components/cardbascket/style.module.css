@@ -1,0 +1,36 @@
+.cardbasket{
+max-width: 1235px;
+margin: 0 auto;
+display: flex;
+padding: 30px 0;
+align-items: center;
+justify-content: space-between;
+border-top: solid;
+border-color: rgb(150, 134, 134);
+
+
+}
+.cardname{
+    font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.01em;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+
+   border-radius: 200px; 
+}
+.count{
+    font-size: 25px;
+}
+.price{
+    font-size: 25px;
+}

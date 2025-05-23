@@ -1,0 +1,58 @@
+.cards {
+    margin: 0 auto;
+    margin: auto;
+
+    max-width: 1235px;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+
+.link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+
+.button {
+    display: flex;
+    gap: 50px;
+    width: 260px;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+}
+
+.cartButton {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    z-index: 1;
+
+}
+
+.title {
+    /* max-width: 1235px; */
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px 0;
+}

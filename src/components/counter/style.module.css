@@ -1,0 +1,21 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 200px;
+}
+
+.count {
+    font-size: 25px;
+}
+
+.price {
+    font-size: 25px;
+}

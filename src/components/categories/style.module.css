@@ -1,0 +1,13 @@
+
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    composes: list-reset from global;
+   
+}
+
+.button{
+    transition: background-color 0.3s, color 0.3s;
+}
