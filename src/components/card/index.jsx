@@ -7,7 +7,10 @@ export const Card = (props) => {
 
   return (
     <article className={styles.card}>
-      <Link className={styles.link} to={`/product/${props.id}`} />
+      <Link
+        className={styles.link}
+        to={`/product/${props.productId || props.id}`}
+      />
       <img src={props.img[0]} width="260" height="260" />
       <span className={styles.name}>{props.title}</span>
       <div className={styles.button}>
