@@ -1,3 +1,3 @@
 {
-  "rewrites": [{ "srs": "/(.*)", "dest": "/index.html" }]
+  "rewrites": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
