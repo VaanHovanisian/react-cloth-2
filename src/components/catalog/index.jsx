@@ -1,7 +1,5 @@
-import React from "react";
 import styles from "./style.module.css";
 import { Card } from "../card";
-
 import { Skeleton } from "../card/skeleton";
 
 export const Catalog = ({ data, error, isLoading }) => {
